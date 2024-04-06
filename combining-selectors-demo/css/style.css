@@ -1,0 +1,38 @@
+#navbar {
+    background-color: #e1f4bd;
+    text-align: center;
+    padding: 24px;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+p a {
+    color:orange;
+}
+
+p.warning {
+    color: crimson;
+}
+
+p.warning a {
+    color: lavender;
+}
+
+ul {
+    color: green;
+}
+
+li a {
+    color: lime
+}
+
+ul p a {
+    color: purple;
+}
+
+ul div a {
+    color: lightblue;
+}
