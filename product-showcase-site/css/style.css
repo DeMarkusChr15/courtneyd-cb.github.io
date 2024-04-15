@@ -1,0 +1,10 @@
+.container {
+    background-color: cornflowerblue;
+    border: 5px solid navy;
+    padding: 24px;
+}
+.container {
+    background-color: hotpink;
+    border: 5px solid lightblue;
+    padding: 24px;
+}
