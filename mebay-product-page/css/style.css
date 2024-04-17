@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: white;
+    color: #111;
+}
+#outer-layout {
+    display: grid;
+    grid-template-columns: 1fr 800px 1fr;
+    grid-template-areas: 
+    "content-areas";
+}
+#inner-layout {
+    grid-area: content-areas;
+    display: flex;
+}
+#column-2 {
+    background-color: white;
+    padding: 0px 12px;
+    flex: 1;
+}
+#inner-layout :img {
+    margin-top: 24px;
+    width: 100%;
+}
+#inner-layout h2 
+#inner-layout h3 {
+    border-bottom: 2px solid #000;
+    padding-bottom: 4px;
+    margin-bottom: 0px;
+}
+#inner-layout p {
+    margin-top: 12px;
+}
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+}
+.side-by-side .text-container h3{
+    font-size: 48px;
+}
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: grey;
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+.mebaycontainer {
+    display: grid;
+    grid-template-columns: 20% 1fr 1fr;
+    grid-template-areas: 
+    "MainImageArea informationArea UserInformationArea";
+}
+
+.mainImagearea {
+    grid-area: mainimagearea;
+}
+.informationArea {
+    grid-area: informationArea;
+}
+.UserInformationArea {
+    grid-area: UserInformationArea;
+}
