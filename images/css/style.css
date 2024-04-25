@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+#header {
+    background-color: green;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+.nav a {
+    color: white;
+    padding: 10px 0px;
+    text-decoration: none;
+    transition: background-color 0.5s;
+}
+.nav a:hover {
+    background-color: #6e430e;
+
+}
+
+#plant-hero {
+    background-image: url(../images/hero1.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: bottom right;
+    display: flex;
+    align-items: center;
+}
+
+#plant-hero h1 {
+    font-family: "staatliches", sans-serif;
+    margin: 0px;
+    font-size: 100px;
+}
+#plant-hero p {
+    margin: 10px 0px 20px;
+}
+#plant-hero .btn {
+    display: inline-block;
+    border: 2px solid greenyellow;
+    padding: 15px 55px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    color: green;
+    transition: 
+    background-color 0.5s,
+    color 0.5s
+    ;
+}
+#plant-hero.btn:hover {
+    background-color: green;
+    color: white;
+}
+
+#footer {
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding: 10px 0px;
+}

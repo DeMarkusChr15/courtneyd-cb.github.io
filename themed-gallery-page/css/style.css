@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero {
+    background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#hero h1 {
+    background-color: thistle;
+    padding: 20px;
+}
