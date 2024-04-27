@@ -1,0 +1,198 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#centered-column {
+    width: 70vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+.card img {
+    width: 200px;
+}
+
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card p {
+    font-size: 18px;
+}
+
+.card a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 370px;
+    text-align: center;
+    border: 3px solid green;
+    background-color: green;
+    transition: 
+        background-color .5s
+        color .5s
+}
+
+.card a:hover {
+    background-color: transparent;
+    color: green;
+}
+
+#trek-card-1 {
+    width: 70vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+.card-style-1 {
+    width: 350px;
+    border: 2px solid;
+    border-radius: 1px;
+    box-shadow: -4px 4px 12px black;
+    background-color:gainsboro ;
+}
+
+.card-style-1 img {
+    width: 100px;
+}
+
+.card-style-1 h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card-style-1 p {
+    font-size: 18px;
+}
+
+.card-style-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 500;
+    text-align: center;
+    border: 3px solid green;
+    background-color: green;
+    transition: 
+        background-color .5s
+        color .5s
+}
+
+.card-style-1 a:hover {
+    background-color: transparent;
+    color: green
+}
+
+#trek-card-2 {
+    width: 70vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+.card-style-2 {
+    width: 350px;
+    border: 2px solid;
+    border-radius: 1px;
+    box-shadow: -4px 4px 12px black;
+    padding: 10px;
+    background-color:white ;
+}
+
+.card-style-2 img {
+    width: 100px;
+}
+
+.card-style-2 h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card-style-2 p {
+    font-size: 18px;
+}
+
+.card-style-2 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    border: 3px solid green;
+    background-color: green;
+    transition: 
+        background-color .5s
+        color .5s
+}
+
+.card-style-2 a:hover {
+    background-color: transparent;
+    color: green
+}
+
+#trek-card-3 {
+    width: 70vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+.card-style-1 img {
+    width: 70vw;
+}
+
+.card-style-1 h2 {
+    font-size: 36px;
+    margin-top: 12px;
+}
+
+.card-style-1 p {
+    font-size: 18px;
+}
+
+.card-style-1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    display: inline-block;
+    width: 370px;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid green;
+    background-color: green;
+    transition: 
+        background-color .5s
+        color .5s
+}
+
+.card-style-1 a:hover {
+    background-color: transparent;
+    color: green
+}
+
+#trek-card-4 {
+    width: 70vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
