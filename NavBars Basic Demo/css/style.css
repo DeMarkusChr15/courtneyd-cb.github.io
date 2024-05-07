@@ -52,12 +52,9 @@ body {
 }
 
 #navbar-bottom {
-    background: linear-gradient(to bottom,
-     yellowgreen
-     olive
-     );
-     display: flex;
-     justify-content: space-between;
+    background: linear-gradient(to bottom, yellowgreen, olive);
+    display: flex;
+    justify-content: space-between;
 }
 
 #navbar-bottom a {
