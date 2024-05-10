@@ -16,12 +16,14 @@ body {
     display: inline-block;
     text-decoration: none;
     color: white;
-    padding: 45px;
+    padding: 24px;
 }
 
 #navbar a:hover {
-    background: black;
+    background: linear-gradient(to top, green);
 }
+
+
 
 #navbar #logo {
     margin-right: auto;
@@ -118,4 +120,8 @@ body {
     display: block;
     font-weight: bold;
     padding-bottom: 12px;
+}
+
+.comparison-column img {
+    width: 200px;
 }
