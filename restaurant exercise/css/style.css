@@ -125,3 +125,106 @@ body {
 .comparison-column img {
     width: 200px;
 }
+
+#hero-1 {
+    background-image: url("../images/download\ \(7\).jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#hero-1 h1 {
+    font-size: 15vw;
+    padding-left: 10vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.spacer {
+    height: 100vh;
+}
+
+.comparisons-container {
+    text-align: center;
+    margin: 60px 0px;
+}
+
+.comparisons-container h3 {
+    font-size: 36px;
+}
+
+.comparisons-layout-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.comparisons-layout-2 .comparison-column {
+    background: linear-gradient( yellow, green);
+    border: 3px solid white;
+    padding: 24px;
+}
+
+.comparisons-layout-2 .comparison-column h4,
+.comparisons-layout-2 .comparison-column p {
+    padding: 24px 48px;
+}
+
+.comparisons-layout-2 .comparison-column h4 {
+    background-color: black;
+    color: white;
+    font-size: 24px;
+    margin: 0px
+}
+
+.comparisons-layout-2 .comparison-column p {
+    font-size: 18px;
+    margin: 0px;
+    border-top: 3px solid black;
+}
+
+.comparisons-layout-2 .comparison-column .label {
+    display: block;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.comparison-column img {
+    width: 200px;
+}
+
+.comparisons-layout-3 {
+    display: flex;justify-content: center;}
+    
+    .comparisons-layout-3 .comparison-column {
+    background-color: green;border: 3px solid gold;padding: 24px;}
+    
+    .comparisons-layout-3 .comparison-column h4,
+    .comparisons-layout-3 .comparison-column p {
+    padding: 24px 48px;}
+    
+    .comparisons-layout-3 .comparison-column h4 {
+    background-color: green;color: black;font-size: 24px;margin: 0px}
+    
+    .comparisons-layout-3 .comparison-column p {
+    font-size: 18px;margin: 0px;border-top: 3px solid black;
+}
+.comparisons-layout-3 .comparison-column .label {
+    display: block;font-weight: bold;padding-bottom: 12px;
+}
+    
+
+.cta-buttom {
+    background-color: white;
+    color: green;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+@media screen and (max-width: 480px) {
+    body {
+    background-color: orange;}}
