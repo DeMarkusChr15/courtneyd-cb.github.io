@@ -1,0 +1,71 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.post-it {
+    background-color: yellow;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 24px;
+    padding: 24px;
+    font-family: sans-serif;
+
+}
+.post-it img {
+    width: 100px;
+    height: 100px;
+}
+.post-it-2 {
+    background-color: lightgreen;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 24px;
+    padding: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.post-it-3 {
+    background-color: pink;
+    display: block;
+    width: 150px;
+    height: 150px;
+    margin: 24px;
+    padding: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.block-styled {
+    position: absolute;
+    bottom: 9px;
+    right: 16px;
+
+}
+
+.post-it-yellow {
+    background-color: yellow;
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 24px;
+    padding: 24px;
+    font-family: sans-serif;
+}
+
+.post-it-4 {
+    display: block;
+    background-color: white;
+    padding: 16px;
+    width: 150px;
+    height: 150px;
+    margin: 24px;
+    padding: 24px;
+    font-family: 'Times New Roman', Times, serif;
+}
