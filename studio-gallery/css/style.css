@@ -13,6 +13,7 @@
     top: 20px;
     left: 350px;
     border: 5px solid black;
+    background-color: white;
     margin: 1px 1px 1px 1px;
     padding: 5px 5px 5px 5px;
 }
@@ -23,6 +24,7 @@
     top: 20px;
     right: 350px;
     border: 5px solid black;
+    background-color: white;
     margin: 1px 1px 1px 1px;
     padding: 5px 5px 5px 5px;
 }
@@ -30,9 +32,10 @@
 .display-area-3 img {
     width: 100px;
     position: absolute;
-    top: 10px;
-    left: 100px;
+    bottom: 10px;
+    left: 250px;
     border: 5px solid black;
+    background-color: white;
     margin: 1px 1px 1px 1px;
     padding: 5px 5px 5px 5px;
     border-radius: 50%;
