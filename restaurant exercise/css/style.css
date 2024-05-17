@@ -4,6 +4,7 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background: tan;
 }
 
 #navbar {
@@ -127,11 +128,13 @@ body {
 }
 
 #hero-1 {
-    background-image: url("../images/download\ \(7\).jpg");
+    background-image: url("../images/Jamaica.jpg");
+    opacity: 1.0;
     height: 100vh;
     background-size: cover;
     background-position: center center;
     display: flex;
+    flex-direction: column;
     justify-content: flex-start;
     align-items: center;
 }
@@ -142,7 +145,7 @@ body {
 }
 
 .spacer {
-    height: 100vh;
+    height: 50vh;
 }
 
 .comparisons-container {
@@ -224,6 +227,75 @@ body {
     min-width: 150px;
     text-align: center;
     margin-right: 24px;
+}
+/* feature item code */
+#feature-item {
+    display: grid;
+    grid-template-columns: 400px;
+    grid-template-areas: "image"
+    "title"
+    "chicken"
+    "description"
+    "price";
+}
+#feature-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    border: 3px solid white;
+    background: linear-gradient(green,yellow);
+}
+#feature-pick {
+    grid-area: image;
+    width: 350px;
+}
+#title2 {
+    grid-area: title;
+}
+#description {
+    grid-area: description;
+}
+#chicken {
+    grid-area: chicken;
+}
+#price {
+    grid-area: price;
+}
+
+#footer {
+    background: linear-gradient(to bottom, yellow, green);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#layout {
+    width: 1000px;
+    margin: 60px 0px;
+    font-size: 48px;
+}
+#button {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    background: linear-gradient(to bottom, yellow, green);
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    
 }
 @media screen and (max-width: 480px) {
     body {
